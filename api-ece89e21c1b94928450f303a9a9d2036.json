@@ -8,20 +8,16 @@
     "enable_proxy_protocol": false,
     "api_id": "ece89e21c1b94928450f303a9a9d2036",
     "org_id": "627a3cc3ff4e730001a98626",
-    "use_keyless": false,
-    "use_oauth2": true,
+    "use_keyless": true,
+    "use_oauth2": false,
     "use_openid": false,
     "openid_options": {
       "providers": [],
       "segregate_by_client": false
     },
     "oauth_meta": {
-      "allowed_access_types": [
-        "client_credentials"
-      ],
-      "allowed_authorize_types": [
-        "token"
-      ],
+      "allowed_access_types": [],
+      "allowed_authorize_types": [],
       "auth_login_redirect": ""
     },
     "auth": {
@@ -484,7 +480,7 @@
       "rate": 0,
       "per": 0
     },
-    "strip_auth_data": true,
+    "strip_auth_data": false,
     "enable_detailed_recording": false,
     "graphql": {
       "enabled": false,
@@ -497,19 +493,19 @@
         "path": ""
       },
       "engine": {
-        "field_configs": null,
-        "data_sources": null
+        "field_configs": [],
+        "data_sources": []
       },
       "proxy": {
-        "auth_headers": null
+        "auth_headers": {}
       },
       "subgraph": {
         "sdl": ""
       },
       "supergraph": {
-        "subgraphs": null,
+        "subgraphs": [],
         "merged_sdl": "",
-        "global_headers": null
+        "global_headers": {}
       }
     }
   },
