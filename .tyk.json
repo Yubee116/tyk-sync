@@ -1,0 +1,57 @@
+{
+  "type": "apidef",
+  "files": [
+    {
+      "file": "api-ece89e21c1b94928450f303a9a9d2036.json",
+      "oas": {}
+    },
+    {
+      "file": "api-dadfcf3cfda840204772ef3237f177dd.json",
+      "oas": {}
+    },
+    {
+      "file": "api-59f2627561b24f4f7c9a4c144ea393ad.json",
+      "oas": {}
+    },
+    {
+      "file": "api-422fc566bf0b49e87a74c7e08bd93531.json",
+      "oas": {}
+    },
+    {
+      "file": "api-9fa061b396124b0c431af14a0d3c55c5.json",
+      "oas": {}
+    },
+    {
+      "file": "api-ba626b9147404f9d5a26b5fb656677b5.json",
+      "oas": {}
+    },
+    {
+      "file": "api-81aaac5f0f354da55c5720bcae6d2b7c.json",
+      "oas": {}
+    },
+    {
+      "file": "api-9d95b906ada3448f40b8aa5691a566c5.json",
+      "oas": {}
+    }
+  ],
+  "policies": [
+    {
+      "file": "policy-628f901fd5de0c0001787781.json"
+    },
+    {
+      "file": "policy-62b93d89d0fc2d000150ff82.json"
+    },
+    {
+      "file": "policy-62b957e1d0fc2d000164e046.json"
+    },
+    {
+      "file": "policy-62b97994d0fc2d000164e048.json"
+    },
+    {
+      "file": "policy-62b97aa5d0fc2d000164e049.json"
+    },
+    {
+      "file": "policy-62c56daa69cd4d00013c2c06.json"
+    }
+  ]
+}

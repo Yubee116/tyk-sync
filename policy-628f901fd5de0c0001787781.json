@@ -1,0 +1,54 @@
+{
+  "_id": "628f901fd5de0c0001787781",
+  "id": "628f901fd5de0c0001787781",
+  "name": "MDCB Policy",
+  "org_id": "627a3cc3ff4e730001a98626",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": 10,
+  "quota_renewal_rate": 43200,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "81aaac5f0f354da55c5720bcae6d2b7c": {
+      "api_name": "mdcb-another",
+      "api_id": "81aaac5f0f354da55c5720bcae6d2b7c",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": null,
+      "allowance_scope": ""
+    },
+    "9d95b906ada3448f40b8aa5691a566c5": {
+      "api_name": "mdcb-httbin",
+      "api_id": "9d95b906ada3448f40b8aa5691a566c5",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": null,
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2022-05-26T14:35:11.496Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1653575711",
+  "meta_data": {}
+}

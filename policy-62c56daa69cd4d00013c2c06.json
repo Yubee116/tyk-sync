@@ -1,0 +1,54 @@
+{
+  "_id": "62c56daa69cd4d00013c2c06",
+  "id": "62c56daa69cd4d00013c2c06",
+  "name": "portal policy",
+  "org_id": "627a3cc3ff4e730001a98626",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "81aaac5f0f354da55c5720bcae6d2b7c": {
+      "api_name": "mdcb-another",
+      "api_id": "81aaac5f0f354da55c5720bcae6d2b7c",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": null,
+      "allowance_scope": ""
+    },
+    "9fa061b396124b0c431af14a0d3c55c5": {
+      "api_name": "mdcb-httpbin",
+      "api_id": "9fa061b396124b0c431af14a0d3c55c5",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": null,
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2022-07-06T11:10:34.319Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": false,
+    "per_api": false
+  },
+  "last_updated": "1657117131",
+  "meta_data": {}
+}

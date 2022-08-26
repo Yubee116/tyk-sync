@@ -1,0 +1,29 @@
+{
+  "_id": "62b93d89d0fc2d000150ff82",
+  "id": "62b93d89d0fc2d000150ff82",
+  "name": "ors directions policy",
+  "org_id": "627a3cc3ff4e730001a98626",
+  "rate": 10,
+  "per": 60,
+  "quota_max": 100,
+  "quota_renewal_rate": 86400,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {},
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2022-06-27T05:18:01.089Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1656317791",
+  "meta_data": {}
+}

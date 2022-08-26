@@ -1,0 +1,29 @@
+{
+  "_id": "62b97aa5d0fc2d000164e049",
+  "id": "62b97aa5d0fc2d000164e049",
+  "name": "ors echo",
+  "org_id": "627a3cc3ff4e730001a98626",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {},
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2022-06-27T09:38:45.323Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1656328758",
+  "meta_data": {}
+}
