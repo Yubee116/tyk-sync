@@ -8,7 +8,7 @@
     "enable_proxy_protocol": false,
     "api_id": "9d95b906ada3448f40b8aa5691a566c5",
     "org_id": "627a3cc3ff4e730001a98626",
-    "use_keyless": true,
+    "use_keyless": false,
     "use_oauth2": false,
     "use_openid": false,
     "openid_options": {
@@ -187,7 +187,7 @@
     "upstream_certificates": {},
     "pinned_public_keys": {},
     "enable_jwt": false,
-    "use_standard_auth": false,
+    "use_standard_auth": true,
     "use_go_plugin_auth": false,
     "enable_coprocess_auth": false,
     "jwt_signing_method": "",
@@ -388,7 +388,12 @@
     "blacklisted_ips": [],
     "dont_set_quota_on_create": false,
     "expire_analytics_after": 0,
-    "response_processors": [],
+    "response_processors": [
+      {
+        "name": "response_body_transform",
+        "options": {}
+      }
+    ],
     "CORS": {
       "enable": false,
       "allowed_origins": [
@@ -436,19 +441,19 @@
         "path": ""
       },
       "engine": {
-        "field_configs": null,
-        "data_sources": null
+        "field_configs": [],
+        "data_sources": []
       },
       "proxy": {
-        "auth_headers": null
+        "auth_headers": {}
       },
       "subgraph": {
         "sdl": ""
       },
       "supergraph": {
-        "subgraphs": null,
+        "subgraphs": [],
         "merged_sdl": "",
-        "global_headers": null
+        "global_headers": {}
       }
     }
   },
